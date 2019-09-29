@@ -1,0 +1,32 @@
+*.swf
+*.fla
+#mac
+*.DS_STORE
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencias
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Archivos adicionales
+*.zip
+*.psd
+.sonarlint
+img
