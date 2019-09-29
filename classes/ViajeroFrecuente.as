@@ -2,6 +2,7 @@
 	
 	public class ViajeroFrecuente{
 		
+		//Propiedades del viajero frecuente
 		private var nombre:String;
 		private var millasAcumuladas:int;
 		private var codigo:Number;
@@ -15,10 +16,10 @@
 			this.tipoPrograma = programa;
 		}
 		
+		//Getter de millas totales
 		public function get millasTotales():int{
 			return millasAcumuladas;
 		}
-		
 		
 		//Acumula millas dado un valor de millas acumular
 		public function acumularMillas(millasParaAcumular:int):void{

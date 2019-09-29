@@ -1,4 +1,8 @@
-﻿package classes{
+﻿/*
+El viajero todo terreno es un viajero frecuente que obtiene dos bonificaciones. Una por viajar por tierra y otra por viajar por aire.
+*/
+
+package classes{
 	
 	public class ViajeroTodoTerreno extends ViajeroFrecuente implements IViajeroTerrestre, IViajeroAereo {
 
